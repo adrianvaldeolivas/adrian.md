@@ -15,3 +15,4 @@ Practica Debian
 7-añadir mi ip y mi nombre al fichero
 
 <img width="1920" height="1080" alt="Screenshot_20251106_085944" src="https://github.com/user-attachments/assets/7a89cc4d-6987-4045-b9c6-107db51ae0de" />
+

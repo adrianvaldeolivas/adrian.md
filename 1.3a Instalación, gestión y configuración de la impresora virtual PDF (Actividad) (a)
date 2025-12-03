@@ -1,0 +1,46 @@
+**Instalación, gestión y configuración de la impresora virtual PDF**
+
+El objetivo de esta actividad es instalar la impresora virtual de documentos PDF y familiarizarse con los archivos y aplicaciones implicados en la configuración de impresoras en el entorno CUPS. Para realizar esta tarea se piden las siguientes actividades:
+
+1-Instalar en CUPS la impresora virtual de documentos PDF.
+
+<img width="887" height="418" alt="Image" src="https://github.com/user-attachments/assets/a2c8bc8c-3604-4933-919c-9806a62c059f" />
+
+2-Comprobar mediante línea de comandos, aplicación gráfica e interfaz web de que la impresora está correctamente dada de alta en el sistema.
+
+-Comprobación por línea de comandos:
+
+<img width="562" height="84" alt="Image" src="https://github.com/user-attachments/assets/c329d547-100f-49c6-ba53-b55b32cd06cd" />
+
+-Comprobación mediante aplicación gráfica:
+
+<img width="1281" height="843" alt="Image" src="https://github.com/user-attachments/assets/17ebfd68-0328-4118-9ce2-c33865bda5b0" />
+
+3-Visualizar el archivo que contiene las impresoras locales.
+
+<img width="733" height="481" alt="Image" src="https://github.com/user-attachments/assets/41f2d9f5-38bd-4b79-8fca-4d8be1d98385" />
+
+4-Visualizar el archivo PPD que contiene la configuración de la impresora PDF.
+
+<img width="883" height="701" alt="Image" src="https://github.com/user-attachments/assets/cedc3798-1a90-438b-b386-3ed2029af3d8" />
+
+5-Imprimir cualquier documento con esta impresora con aplicación gráfica y con línea de comandos y comprobar su resultado.
+
+-Imprimir desde una aplicación gráfica:
+
+Abre el documento (por ejemplo un .odt o un .pdf).
+
+Ve a Archivo → Imprimir.
+
+Selecciona la impresora:
+PDF
+
+Haz clic en Imprimir.
+
+El documento se generará como un archivo PDF.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d81f64b8-8cef-4071-b8b3-8e546fb78928" />
+
+6-Averiguar consultando Internet cómo cambiar el directorio por defecto al que la impresora PDF envía los trabajos de impresión.
+
+Habría que meterse en el fichero y editarlo con un sudo nano, buscar la linea y cambiarlo de ruta con un out. Después para guardar los cambios sudo systemctl restart.

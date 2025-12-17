@@ -29,3 +29,19 @@ Añadirla:
 5-Comprobar que está creado:
 
 <img width="650" height="532" alt="captura 6 ldif" src="https://github.com/user-attachments/assets/8c1192c5-ef46-4599-9ec6-a199cdd67397" />
+
+6-Archivo LDIF para modificar datos
+
+Archivo: mod_usuario.ldif
+
+Aplicar cambios:
+
+sudo ldapmodify -x -D "cn=admin,dc=midominio" -W -f mod_usuario.ldif
+
+Eliminar un atributo:
+
+dn: uid=adrian,ou=Usuarios,dc=midominio
+
+changetype: modify
+
+delete: loginShell

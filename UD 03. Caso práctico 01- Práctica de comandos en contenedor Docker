@@ -1,7 +1,0 @@
-UD 03. Caso práctico 01- Práctica de comandos en contenedor Docker
-
-Crearemos un contenedor con la imagen base “ubuntu”. Además, al crearlo, dejaremos lista una
-“shell” para instalar los programas pertinentes. Esto podemos hacerlo con la orden:
-docker run -it --name ejercicio ubuntu /bin/bash
-Si todo sale bien nos encontraremos en la “shell” del contenedor, de forma similar a:
-
